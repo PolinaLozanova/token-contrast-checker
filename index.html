@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Design Token Contrast Checker: WCAG Contrast for Whole Token Sets
+    </title>
+    <meta
+      name="description"
+      content="Paste your design tokens and check WCAG contrast across every foreground and background pair, light and dark themes included. Get fix suggestions and export patched tokens."
+    />
+    <meta name="theme-color" content="#6125cf" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">Token Contrast Checker</div>
+      <p class="theme-note">AA by default · AAA optional</p>
+    </header>
+
+    <main id="app">
+      <h1>Design Token Contrast Checker</h1>
+      <p class="tagline">
+        Check contrast across your whole token set, not one pair at a time.
+      </p>
+
+      <section class="panel" aria-labelledby="input-heading">
+        <h2 id="input-heading" class="visually-hidden" hidden>
+          Import tokens
+        </h2>
+        <p>
+          Paste or upload W3C Design Tokens, CSS custom properties, or a Figma
+          variables export. Alias resolution, light/dark themes, a pair matrix,
+          and fix suggestions land in the next phases.
+        </p>
+        <div class="actions">
+          <button type="button" disabled>
+            Paste / upload (Phase 3)
+          </button>
+          <button type="button" disabled>
+            Load demo (Phase 3)
+          </button>
+        </div>
+      </section>
+
+      <p id="phase-status" class="status" role="status" aria-live="polite">
+        Loading…
+      </p>
+    </main>
+
+    <script type="module" src="./src/ui/app.js"></script>
+  </body>
+</html>

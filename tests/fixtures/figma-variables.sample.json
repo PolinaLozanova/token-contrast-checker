@@ -1,0 +1,83 @@
+{
+  "_comment": "Synthetic Figma Variables export for parser tests. Replace with a real export when available.",
+  "id": "VariableCollectionId:1:2",
+  "name": "Andromeda / Color",
+  "modes": {
+    "1:0": "Light",
+    "1:1": "Dark"
+  },
+  "variables": [
+    {
+      "id": "VariableID:1:10",
+      "name": "color/primary/500",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": { "r": 0.529, "g": 0.275, "b": 1, "a": 1 },
+        "1:1": { "r": 0.529, "g": 0.275, "b": 1, "a": 1 }
+      }
+    },
+    {
+      "id": "VariableID:1:11",
+      "name": "color/neutral/900",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": { "r": 0.125, "g": 0.145, "b": 0.224, "a": 1 },
+        "1:1": { "r": 0.125, "g": 0.145, "b": 0.224, "a": 1 }
+      }
+    },
+    {
+      "id": "VariableID:1:12",
+      "name": "color/neutral/50",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": { "r": 0.965, "g": 0.969, "b": 0.984, "a": 1 },
+        "1:1": { "r": 0.965, "g": 0.969, "b": 0.984, "a": 1 }
+      }
+    },
+    {
+      "id": "VariableID:2:20",
+      "name": "semantic/text/primary",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:1:11" },
+        "1:1": { "type": "VARIABLE_ALIAS", "id": "VariableID:1:12" }
+      }
+    },
+    {
+      "id": "VariableID:2:21",
+      "name": "semantic/bg/canvas",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:1:12" },
+        "1:1": { "type": "VARIABLE_ALIAS", "id": "VariableID:1:11" }
+      }
+    },
+    {
+      "id": "VariableID:2:22",
+      "name": "semantic/text/on-brand",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": { "r": 1, "g": 1, "b": 1, "a": 1 },
+        "1:1": { "r": 0.125, "g": 0.145, "b": 0.224, "a": 1 }
+      }
+    },
+    {
+      "id": "VariableID:2:23",
+      "name": "semantic/bg/brand",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": { "type": "VARIABLE_ALIAS", "id": "VariableID:1:10" },
+        "1:1": { "r": 0.627, "g": 0.427, "b": 1, "a": 1 }
+      }
+    },
+    {
+      "id": "VariableID:9:99",
+      "name": "space/m",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "1:0": 16,
+        "1:1": 16
+      }
+    }
+  ]
+}

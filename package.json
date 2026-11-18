@@ -1,0 +1,14 @@
+{
+  "name": "token-contrast-checker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Design Token Contrast Checker — WCAG contrast across whole token sets",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/**/*.test.js",
+    "serve": "npx --yes serve ."
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
